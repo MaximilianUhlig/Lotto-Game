@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
+
 namespace Lotto
 {
     internal class Program
@@ -25,36 +26,71 @@ namespace Lotto
                 Console.WriteLine("5. Frequency of numbers");
                 Console.WriteLine("6. Exit");
 
-                string input = Console.ReadLine();
+                int input = Convert.ToInt32(Console.ReadLine());
                 Console.Clear();
 
 
                 switch (input)
                 {
-                    case "1":
+                    case 1:
                         numbers = UserNumber();
                         break;
 
-                    case "2":
-                        Console.WriteLine("Your numbers are: ");
-                        DisplayNumbers(numbers);
+                    case 2:
+                        if (numbers != null)
+                        {
+                            Console.WriteLine("Your numbers are: ");
+                            DisplayNumbers(numbers);
+                        }
+                        else
+                        {
+
+                            Console.WriteLine("No numbers have been picked.");
+                            Console.ReadKey();
+                            Console.Clear();
+                        }
                         break;
 
-                    case "3":
-                        BubbleSort(numbers);
+                    case 3:
+                        if (numbers != null)
+                        {
+                            BubbleSort(numbers);
+                        }
+                        else
+                        {
+                            Console.WriteLine("No numbers have been picked yet.");
+                            Console.ReadKey();
+                            Console.Clear();
+                        }
                         break;
 
-                    case "4":
-                        CompareArrays(numbers, actualNumbers);
-                        Console.ReadKey();
-                        Console.Clear();
+                    case 4:
+                        if (numbers != null)
+                        {
+                            CompareArrays(numbers, actualNumbers);
+                        }
+                        else
+                        {
+                            Console.WriteLine("No numbers have been picked yet.");
+                            Console.ReadKey();
+                            Console.Clear();
+                        }
                         break;
 
-                    case "5":
-                        NumberFrequency(numbers);
+                    case 5:
+                        if (numbers != null)
+                        {
+                            NumberFrequency(numbers);
+                        }
+                        else
+                        {
+                            Console.WriteLine("No numbers have been picked yet.");
+                            Console.ReadKey();
+                            Console.Clear();
+                        }
                         break;
 
-                    case "6":
+                    case 6:
                         Console.WriteLine("Exiting...Goodbye!");
                         running = false;
                         break;
@@ -63,7 +99,7 @@ namespace Lotto
             Console.ReadLine();
         }
 
-        //This method prompts the user to input their lotto numbers. Checking to see if the number is between 0 - 9.
+        //This method prompts the user to input their lotto numbers. Checking to see if the number is between 0 - 70.
         static int[] UserNumber()
         {
             int[] userNumbers = new int[6];
@@ -156,6 +192,8 @@ namespace Lotto
             if (arrayMatches.Count == 0)
             {
                 Console.WriteLine("No matches");
+                Console.ReadKey();
+                Console.Clear();
             }
             else if (arrayMatches.Count == 6)
             {
