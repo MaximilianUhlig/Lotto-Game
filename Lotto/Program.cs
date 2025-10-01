@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 
-
 namespace Lotto
 {
     internal class Program
@@ -45,7 +44,7 @@ namespace Lotto
                         else
                         {
 
-                            Console.WriteLine("No numbers have been picked.");
+                            Console.WriteLine("No numbers have been picked yet.");
                             Console.ReadKey();
                             Console.Clear();
                         }
