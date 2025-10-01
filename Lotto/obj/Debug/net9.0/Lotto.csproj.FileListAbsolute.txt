@@ -1,0 +1,29 @@
+D:\Projects\Rider\Lotto\Lotto\bin\Debug\net9.0\Lotto.exe
+D:\Projects\Rider\Lotto\Lotto\bin\Debug\net9.0\Lotto.deps.json
+D:\Projects\Rider\Lotto\Lotto\bin\Debug\net9.0\Lotto.runtimeconfig.json
+D:\Projects\Rider\Lotto\Lotto\bin\Debug\net9.0\Lotto.dll
+D:\Projects\Rider\Lotto\Lotto\bin\Debug\net9.0\Lotto.pdb
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.AssemblyInfoInputs.cache
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.AssemblyInfo.cs
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.csproj.CoreCompileInputs.cache
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.dll
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\refint\Lotto.dll
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.pdb
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\Lotto.genruntimeconfig.cache
+D:\Projects\Rider\Lotto\Lotto\obj\Debug\net9.0\ref\Lotto.dll
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.exe
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.deps.json
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.runtimeconfig.json
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.dll
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.pdb
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.AssemblyInfoInputs.cache
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.AssemblyInfo.cs
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.csproj.CoreCompileInputs.cache
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.sourcelink.json
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.dll
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\refint\Lotto.dll
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.pdb
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.genruntimeconfig.cache
+D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\ref\Lotto.dll
