@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Rider\\Lotto\\Lotto\\Lotto.csproj",
+      "projectUniqueName": "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\Lotto.csproj",
       "projectName": "Lotto",
-      "projectPath": "D:\\Projects\\Rider\\Lotto\\Lotto\\Lotto.csproj",
+      "projectPath": "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\Lotto.csproj",
       "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Rider\\Lotto\\Lotto\\obj\\",
+      "outputPath": "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

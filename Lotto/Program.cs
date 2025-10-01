@@ -62,19 +62,6 @@ namespace Lotto
             }
             Console.ReadLine();
         }
-        /*
-         *BubbleSort(numbers);
-         *BubbleSort(actualNumbers);
-         *
-         *Console.WriteLine("Your sorted numbers are:");
-         *DisplayNumbers(numbers);
-         *
-         *Console.WriteLine("The actual numbers are:");
-         *DisplayNumbers(actualNumbers);
-         *
-         *CompareArrays(numbers, actualNumbers);
-         *NumberFrequency(numbers);
-         */
 
         //This method prompts the user to input their lotto numbers. Checking to see if the number is between 0 - 9.
         static int[] UserNumber()
@@ -104,20 +91,6 @@ namespace Lotto
             Console.ReadKey();
             Console.Clear();
             return userNumbers;
-            /*
-             *Console.WriteLine($"Please enter your first number:");
-             *userNumbers[0] = Convert.ToInt32(Console.ReadLine());
-             *Console.WriteLine($"Please enter your second number:");
-             *userNumbers[1] = Convert.ToInt32(Console.ReadLine());
-             *Console.WriteLine($"Please enter your third number:");
-             *userNumbers[2] = Convert.ToInt32(Console.ReadLine());
-             *Console.WriteLine($"Please enter your fourth number:");
-             *userNumbers[3] = Convert.ToInt32(Console.ReadLine());
-             *Console.WriteLine($"Please enter your fifth number:");
-             *userNumbers[4] = Convert.ToInt32(Console.ReadLine());
-             *Console.WriteLine($"Please enter your sixth number:");
-             *userNumbers[5] = Convert.ToInt32(Console.ReadLine());
-             */
         }
 
         //This method displays the users numbers before or after being sorted.
