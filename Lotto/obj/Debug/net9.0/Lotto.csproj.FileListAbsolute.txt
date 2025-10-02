@@ -27,3 +27,18 @@ D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\refint\Lotto.dll
 D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.pdb
 D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.genruntimeconfig.cache
 D:\Projects\Rider\Lotto Game\Lotto-Game\Lotto\obj\Debug\net9.0\ref\Lotto.dll
+C:\Projects\Rider\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.exe
+C:\Projects\Rider\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.deps.json
+C:\Projects\Rider\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.runtimeconfig.json
+C:\Projects\Rider\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.dll
+C:\Projects\Rider\Lotto-Game\Lotto\bin\Debug\net9.0\Lotto.pdb
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.AssemblyInfoInputs.cache
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.AssemblyInfo.cs
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.csproj.CoreCompileInputs.cache
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.sourcelink.json
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.dll
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\refint\Lotto.dll
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.pdb
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\Lotto.genruntimeconfig.cache
+C:\Projects\Rider\Lotto-Game\Lotto\obj\Debug\net9.0\ref\Lotto.dll

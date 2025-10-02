@@ -1,31 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\Lotto.csproj": {}
+    "C:\\Projects\\Rider\\Lotto-Game\\Lotto\\Lotto.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\Lotto.csproj": {
+    "C:\\Projects\\Rider\\Lotto-Game\\Lotto\\Lotto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\Lotto.csproj",
+        "projectUniqueName": "C:\\Projects\\Rider\\Lotto-Game\\Lotto\\Lotto.csproj",
         "projectName": "Lotto",
-        "projectPath": "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\Lotto.csproj",
+        "projectPath": "C:\\Projects\\Rider\\Lotto-Game\\Lotto\\Lotto.csproj",
         "packagesPath": "C:\\Users\\maxim\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Rider\\Lotto Game\\Lotto-Game\\Lotto\\obj\\",
+        "outputPath": "C:\\Projects\\Rider\\Lotto-Game\\Lotto\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\maxim\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
@@ -41,9 +36,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net9.0": {
@@ -64,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\maxim\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
