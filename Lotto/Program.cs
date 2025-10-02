@@ -5,7 +5,6 @@ namespace Lotto
 {
     internal class Program
     {
-
         static void Main(string[] args)
         {
             //Initializes "numbers" to have no contents, "actualNumbers" to contain the contents from "ActualNumber" method, and running is set to true so the menu can display until exited.
@@ -24,12 +23,20 @@ namespace Lotto
                 Console.WriteLine("4. Compare numbers");
                 Console.WriteLine("5. Frequency of numbers");
                 Console.WriteLine("6. Exit");
-
-                int input = Convert.ToInt32(Console.ReadLine());
+                
+                string input = Console.ReadLine();
+                int option;
                 Console.Clear();
-
-
-                switch (input)
+                
+                if (!int.TryParse(input, out option))
+                {
+                    Console.WriteLine("Not a valid option.");
+                    Console.ReadKey();
+                    Console.Clear();
+                    continue;
+                }
+                
+                switch (option)
                 {
                     case 1:
                         numbers = UserNumber();
@@ -102,26 +109,41 @@ namespace Lotto
         static int[] UserNumber()
         {
             int[] userNumbers = new int[6];
-
+            bool running = true;
+            
             for (int i = 0; i < 6; i++)
-            {
+            { 
                 Console.WriteLine("Please enter 6 different numbers (0 - 70)");
                 Console.Write("Enter number {0}: ", i + 1);
-                userNumbers[i] = Convert.ToInt32(Console.ReadLine());
+
+                string input = Console.ReadLine();
+                    
+                if (!int.TryParse(input, out userNumbers[i]))
+                {
+                    Console.WriteLine("You didnt enter a number");
+                    i--;
+                    continue;
+                }
                 if (userNumbers[i] > 70)
                 {
                     Console.WriteLine("Please enter a valid number (0 - 70)");
-                    break;
+                    i--;
+                    continue;
                 }
-                else if (userNumbers[i] < 0)
+                if (userNumbers[i] < 0)
                 {
                     Console.WriteLine("Please enter a valid number (0 - 70)");
-                    break;
+                    i--;
+                    continue;
                 }
-                else
+                if (userNumbers.Take(i).Contains(userNumbers[i]))
                 {
-                    userNumbers[i] = userNumbers[i];
+                    Console.WriteLine("This number has already been picked. Try again.");
+                    userNumbers[i] = 0;
+                    i--;
+                    continue;
                 }
+                //userNumbers[i] = userNumbers[i];
             }
             Console.ReadKey();
             Console.Clear();
@@ -156,7 +178,7 @@ namespace Lotto
                 }
             }
         }
-
+        
         //Generates and fills the actualNumber array with random numbers (these are the actual lottery numbers).
         static int[] ActualNumber()
         {
