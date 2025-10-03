@@ -5,6 +5,7 @@ namespace Lotto
 {
     internal class Program
     {
+        static List<int> allNumbers = new List<int>();
         static void Main(string[] args)
         {
             //Initializes "numbers" to have no contents, "actualNumbers" to contain the contents from "ActualNumber" method, and running is set to true so the menu can display until exited.
@@ -145,6 +146,7 @@ namespace Lotto
                 }
                 //userNumbers[i] = userNumbers[i];
             }
+            allNumbers.AddRange(userNumbers);
             Console.ReadKey();
             Console.Clear();
             return userNumbers;
@@ -195,16 +197,16 @@ namespace Lotto
         }
 
         //Compares the UserNumber array and ActualNumber array to see if they match. It outputs a text based on the users score.
-        static void CompareArrays(int[] array1, int[] array2)
+        static void CompareArrays(int[] numbers, int[] actualNumbers)
         {
             List<int> arrayMatches = new List<int>();
-            for (int i = 0; i < array1.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
-                for (int j = 0; j < array2.Length; j++)
+                for (int j = 0; j < actualNumbers.Length; j++)
                 {
-                    if (array1[i] == array2[j] && !arrayMatches.Contains(array1[i]))
+                    if (numbers[i] == actualNumbers[j] && !arrayMatches.Contains(numbers[i]))
                     {
-                        arrayMatches.Add(array1[i]);
+                        arrayMatches.Add(numbers[i]);
                         break;
                     }
                 }
@@ -232,17 +234,17 @@ namespace Lotto
          *The if else statement is used to add the numbers to the dictionary. If a number appears multiple times it gets tallied up, if it only appears once its value is equal to 1.
          *Finally for each number in the numberFrequency dictionary, its key is printed (the number entered) and its value (the amount of times it appears.
          */
-        static void NumberFrequency(int[] array1)
+        static void NumberFrequency(int[] numbers)
         {
             List<int> numberMatches = new List<int>();
-            for (int i = 0; i < array1.Length; i++)
+            for (int i = 0; i < numbers.Length; i++)
             {
-                numberMatches.Add(array1[i]);
+                numberMatches.Add(numbers[i]);
             }
 
             //Dictionary<key, value>
             Dictionary<int, int> numberFrequency = new Dictionary<int, int>();
-            foreach (int number in numberMatches)
+            foreach (int number in allNumbers)
             {
                 if (numberFrequency.ContainsKey(number))
                 {
